@@ -88,3 +88,21 @@ button {
 button:hover {
     border: 1px solid rgba(0, 0, 0, 0.103);
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 15vh;
+}
+
+#footer-links li{
+    margin-bottom: 3vh;
+    padding: 0 3vw 0 3vw;
+    color: rgba(0, 0, 0, 0.589);
+    font-size: small;
+}
